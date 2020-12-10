@@ -1,7 +1,8 @@
-.home {
+/* *Navbar */
+.nav {
     width: 20vh;
 }
-.fakeimg {
-    height: 200px;
-    background: #aaa;
+/* *Images from news */
+.image {
+    width: 60vh;
 }
