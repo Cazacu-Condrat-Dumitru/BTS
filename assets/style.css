@@ -1,8 +1,22 @@
 /* *Navbar */
-.nav {
-    width: 20vh;
+.navimg {
+    width: 100px;
+}
+.deal {
+    width: 350px;
+    margin-right: 800px;
 }
 /* *Images from news */
 .image {
-    width: 60vh;
+    width: 350px;
+}
+/* *news h1 */
+.news{
+    
+}
+.navbar {
+    padding: 0;
+}
+.jumbotron {
+    padding: 0;
 }
