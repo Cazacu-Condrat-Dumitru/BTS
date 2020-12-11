@@ -4,19 +4,21 @@
 <title>Wagiso</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap css -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- my css -->
 <link rel="stylesheet" href="assets/style.css">
+<!-- Bootstrap JS with async -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" async></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" async></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" async></script>
-
 </head>
+
 <body>
-
-
-<!-- *NAVBAR -->
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-<a class="navbar-brand" href="#"><img class="navimg" src="assets/img/logo.png" alt="Wagiso"></a>
+    <a id="home"></a>
+<!-- !NAVBAR -->
+<nav class="navbar navbar-expand-sm bg-dark fixed-top navbar-dark">
+<a class="navbar-brand" href="#home"><img class="navimg" src="assets/img/logo.png" alt="Wagiso"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
 </button>
@@ -44,34 +46,42 @@
 </div>  
 </nav>
 
-<!-- *Deal of the week -->
-<div class="jumbotron text-center" style="margin-bottom:0">
-<h1>Deal of The Week!</h1>
-<img class="deal" src="assets/img/deal-min.png" alt="deal">
-<p>Don't miss your chance!</p> 
+<!-- !Deal of the week -->
+<div class="text-center">
+<h1 class=" text-center">Don't miss your chance!</h1>
+<img class="img-fluid" src="assets/img/deal-min.png" alt="deal">
 </div>
 
-<!-- *News -->
-<h1 class="text-center">In The News</h1>
+<!-- !News -->
+<h3 class="text-center">In The News</h3>
 <div class="container">
-<div class="row">
-    <div class="col-sm-4">
-        <img class="img-fluid" src="assets/img/ttesla-min.jpg" alt="tesla">
-        <p class="text-center">Tesla seeks approval for battery-cell output at Texas plant</p>
-    </div>
-    <div class="col-sm-4">
-        <img class="img-fluid" src="assets/img/mclarenn-min.jpg" alt="mclaren">
-        <p class="text-center">McLaren PHEV gets V-6 power</p>
-    </div>
-    <div class="col-sm-4">
-        <img class="img-fluid" src="assets/img/mecedes-min.jpg" alt="mercedes">
-        <p>Mercedes maps out push to lift profits during EV shift</p>
+    <div class="row">
+        <div class="col-sm-4">
+            <img class="img-fluid" src="assets/img/ttesla-min.jpg" alt="tesla">
+            <p class="text-center">Tesla seeks approval for battery-cell output at Texas plant</p>
         </div>
         <div class="col-sm-4">
-            <img class="img-fluid" src="assets/img/usf-min.jpg" alt="mclaren">
-            <p class="text-center">Half of U.S. fire departments are ill-prepared for EV fires, NBS says</p>
+            <img class="img-fluid" src="assets/img/mclarenn-min.jpg" alt="mclaren">
+            <p class="text-center">McLaren PHEV gets V-6 power</p>
         </div>
-</div>
+        <div class="col-sm-4">
+            <img class="img-fluid" src="assets/img/mecedes-min.jpg" alt="mercedes">
+            <p class="text-center">Mercedes maps out push to lift profits during EV shift</p>
+        </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" src="assets/img/usf-min.jpg" alt="mclaren">
+                <p class="text-center">Half of U.S. fire departments are ill-prepared for EV fires, NBS says</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" src="assets/img/ctesla.png" alt="tesla">
+                <p class="text-center">Tesla alleges act of employee sabotage in Calif.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-fluid" src="assets/img/fepo-min.jpg" alt="ferrari">
+                <p class="text-center">Porsche, Ferrari buyers face $59,000 green tax in France
+                    </p>
+            </div>
+    </div>
 </div>
 
 <div class="jumbotron text-center" style="margin-bottom:0">
