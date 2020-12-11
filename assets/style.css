@@ -6,17 +6,16 @@
     width: 350px;
     margin-right: 800px;
 }
-/* *Images from news */
-.image {
-    width: 350px;
-}
-/* *news h1 */
-.news{
-    
-}
 .navbar {
     padding: 0;
 }
+/* *Images from news */
+.image {
+    width: 300px;
+}
 .jumbotron {
     padding: 0;
+}
+.row {
+    margin: 0;
 }
