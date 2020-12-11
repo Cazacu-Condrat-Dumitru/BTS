@@ -5,25 +5,29 @@ body {
 .navimg {
     width: 100px;
 }
-h1 {
-    margin-top: 100px;
-    color: red;
-}
 .navbar {
     padding: 0;
 }
 .row {
     margin: 0;
 }
-.img-fluid {
+h1 {
+    margin-top: 100px;
+    color: red;
+}
+.deal {
+    margin-bottom: 50px;
     width: 700px;
 }
-h3 {
-    margin-top: 2em;
+.title {
+    padding-top: 30px;
+    font-size: 3em;
+    font-weight: 600;
 }
-.container {
+.grid_news {
     background-image: url(../assets/img/w-min.jpg);
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    font-size: x-large;
     color: rgba(42, 67, 45, 1);
 }
