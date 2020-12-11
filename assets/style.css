@@ -19,11 +19,7 @@ h1 {
     margin-bottom: 50px;
     width: 700px;
 }
-.title {
-    padding-top: 30px;
-    font-size: 3em;
-    font-weight: 600;
-}
+
 .grid_news {
     background-image: url(../assets/img/w-min.jpg);
     font-family: 'Roboto', sans-serif;
@@ -34,4 +30,39 @@ h1 {
 /* !Partners */
 .bgimg_partners {
     background-image: url(../assets/img/hands-min.jpg);
+    background-repeat: no-repeat;
+}
+
+
+/* !catalog */
+.bg_catalog {
+    background-image: url(../assets/img/wcatalog.png);
+}
+.title {
+    padding-top: 30px;
+    font-size: 3em;
+    font-weight: 600;
+}
+.txt_catalog {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    color: rgba(42, 67, 45, 1);
+}
+
+
+/* !Sales */
+.bgimg_s {
+    background-image: url(../assets/img/sbgjpg-min.jpg);
+}
+.title_l {
+    margin-left: 20px;
+    color: white;
+}
+.sale img {
+    
+}
+.title_r {
+    margin-left: 300px;
+    color: white;
 }
