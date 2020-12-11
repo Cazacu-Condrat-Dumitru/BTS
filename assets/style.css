@@ -1,6 +1,6 @@
-body {
+/* body {
     background-image: url(../assets/img/supercars-rivals_1572661142.jpg);
-}
+} */
 /* *Navbar */
 .navimg {
     width: 100px;
@@ -30,4 +30,8 @@ h1 {
     font-weight: 600;
     font-size: x-large;
     color: rgba(42, 67, 45, 1);
+}
+/* !Partners */
+.bgimg_partners {
+    background-image: url(../assets/img/hands-min.jpg);
 }
