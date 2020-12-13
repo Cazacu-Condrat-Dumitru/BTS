@@ -6,6 +6,13 @@
 .navbar {
     padding: 0;
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+ul {
+    font-size: x-large;
+}
+/* *Deal */
 .row {
     margin: 0;
 }
@@ -20,6 +27,7 @@ h1 {
 #buton {
     margin-bottom: 60px;
 }
+
 .grid_news {
     background-image: url(../assets/img/w-min.jpg);
     font-family: 'Roboto', sans-serif;
@@ -27,7 +35,7 @@ h1 {
     font-size: x-large;
     color: rgba(42, 67, 45, 1);
 }
-/* !Partners */
+/*! Partners */
 .bgimg_partners {
     background-image: url(../assets/img/hands-min.jpg);
     background-repeat: no-repeat;
@@ -37,15 +45,24 @@ h1 {
 }
 
 
-/* !catalog */
+/*! Catalog */
 .bg_catalog {
     background-image: url(../assets/img/wcatalog.png);
+    background-repeat: no-repeat;
 }
-.title {
-    padding-top: 30px;
+.title_1 {
+    color: rgba(42, 67, 45, 1);
+    padding-top: 10px;
     font-size: 3em;
     font-weight: 600;
 }
+.title_2 {
+    color: rgba(42, 67, 45, 1);
+    padding-top: 10px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
 .txt_catalog {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -54,7 +71,7 @@ h1 {
 }
 
 
-/* !Sales */
+/*! Sales */
 .bgimg_s {
     background-image: url(../assets/img/sbgjpg-min.jpg);
     background-repeat: no-repeat;
@@ -85,15 +102,34 @@ h1 {
 .img .img-fluid {
     margin-top: 30px;
 }
-
+/* *for 1080p */
+@media only screen and (max-width: 120em) {
+    .title_l {
+        font-size: 3em;
+        margin-left: 200px!important;
+    }
+    #sale {
+        margin-left: 50px!important;
+    }
+    .title_r {
+        font-size: 3em;
+        margin-left: 100px!important;
+    }
+}
 
 
 /* !Reviews */
 .bg_reviews {
-    background-image: url(../assets/img/reviews-min\ \(1\).jpg);
+    background-image: url(../assets/img/reviews-min.jpg);
     color: white;
 }
-
+.bg_reviews h2 {
+    padding-top: 20px;
+    font-size: 5em;
+}
+.reviews .col-sm-6 {
+    margin-top: 20px;
+}
 
 /* !Eco */
 /* .bg_eco .img-fluid {
@@ -107,6 +143,8 @@ h1 {
     margin-left: 570px;
 } */
 #button {
+    font-size: 40px;
+    border-radius: 10em;
     margin-bottom: 60px;
 }
 
